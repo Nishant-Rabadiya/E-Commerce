@@ -1,0 +1,145 @@
+.navbar {
+    font-family: 'Lora', serif !important; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 12;
+    background-color: white;
+} 
+
+.main-section {
+    margin-top: 75px;
+}
+
+.search-input {
+    width: 400px;
+}
+
+.first-product {
+    background-color: #e3edf6;
+    height: 475px;
+}
+
+.first-product-header {
+    font-family: 'Lora', serif !important; 
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 700;
+    font-size: 50px !important;
+    font-family: none;
+    line-height: 1
+}
+
+.service-section {
+    background-color: #f3f3f3d6;
+}
+
+.display-product {
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.add-cart-button {
+    background-color: #ec4899;
+    padding: 5px 15px 5px 5px;
+}
+
+.add-cart-button:hover {
+    background-color: #3b82f6;
+}
+
+.display-categories {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 25px;
+}
+
+.card-product-name:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.view-product:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.card-section {
+    overflow: hidden;
+    max-width: 347px;
+}
+
+.product-image {
+    width: 100%;
+    transition: all 0.15s  ease-in;
+}
+
+.product-image:hover {
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+
+.selected-product-image-section {
+    width: 32%;
+}
+
+.selected-product-details-section {
+    width: 32%;
+}
+
+.selected-product-review-section {
+    width: 32%;
+}
+
+.selected-product-details {
+    width: 80px;
+}
+
+.cart-quantity-button {
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.cart-product-bedge {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.form-container {
+    height: 100vh;
+    background-color: #efefef;
+}
+
+.form-section {
+    width: 35%;
+    margin: auto;
+}
+
+.error-message {
+    height: 20px;
+}
+
+.login-registration-button, .cart-delete-button {
+    cursor: pointer;
+}
+
+.form-inputs {
+    border: 1px solid #3b82f6;
+}
+
+.error-inputs {
+    border: 1px solid #ff0000;
+}
